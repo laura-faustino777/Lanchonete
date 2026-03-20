@@ -4,9 +4,14 @@ public class Cliente {
     private String Nome;
     private String Sobrenome;
 
+
+
     public Cliente(String nome, String sobrenome) {
         Nome = nome;
         Sobrenome = sobrenome;
+
+       ingredientelist.remove("jilo")
+        System.out.println(ingredientesLit);
     }
 
     public void Hello(){
