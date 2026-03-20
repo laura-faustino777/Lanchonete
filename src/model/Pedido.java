@@ -26,7 +26,7 @@ public class Pedido {
     }
 
     public String getTudo() {
-        return  cliente.getNomeInteiro() + " " + hamburguer.getTodosIngredientes();
+        return  cliente.getNomeInteiro() + " " + hamburguer.getIngredientes();
 
     }
 }
